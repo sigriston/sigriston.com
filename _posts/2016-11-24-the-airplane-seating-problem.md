@@ -10,12 +10,12 @@ probability to solve, it is far from trivial and the answer may be quite
 surprising! Here's the problem:
 
 > A line of 100 passengers is waiting to board a 100-seat airplane. However,
-> the first passenger in line forgot his designated seat and will sit on a
+> the first passenger in line forgot his designated seat and will sit in a
 > random seat. The following passengers will seat on their assigned seats
-> unless their seat is already taken, in which case they will sit on a random
+> unless their seat is already taken, in which case they will sit in a random
 > available seat.
 >
-> What is the probability the 100th passenger will manage to sit on her
+> What is the probability the 100th passenger will manage to sit in her
 > designated seat?
 
 Tricky, huh? Try to work out the answer to that in your head and then come back
@@ -37,20 +37,20 @@ available.  Using our notation:
 
 $$P_2 = \frac{1}{2}$$
 
-Now let's work with a 3-seat, 3-passenger plane. The first passenger can seat
-in any of three seats, at random: his own, passenger 2's, and passenger 3's.
-The chance for each is exactly one third.
+Now let's work with a 3-seat, 3-passenger plane. The first passenger can sit in
+any of three seats, at random: his own, passenger 2's, and passenger 3's.  The
+chance for each is exactly one third.
 
 In the first case, we know that passenger 3 will find her seat unoccupied, and
 in the third case she won't. Let's introduce some notation to represent this:
 $$P_{n|x}$$, meaning the probability that the $$n$$-th passenger will find her
 seat available given that the first passenger sat on passenger $$x$$'s seat.
-So, for the three seat case we found out that:
+So, for the 3-seat case we found out that:
 
 $$P_{3|1} = 1 \qquad P_{3|3} = 0$$
 
-What about $$P_{3|2}$$? Let's think about it. If the first passenger sits on
-passenger 2's seat, now passenger 2 will have to sit on a random seat: either
+What about $$P_{3|2}$$? Let's think about it. If the first passenger sits in
+passenger 2's seat, now passenger 2 will have to sit in a random seat: either
 passenger 1's or passenger 3's. Now, haven't we seen that one before? It looks
 exactly like the 2-seat problem, in which passenger 3 will have a 50% chance to
 find her seat available.
@@ -63,7 +63,7 @@ exactly like the 2-seat problem. In notation:
 
 $$P_{3|2} = P_2 = \frac{1}{2}$$
 
-Now, remembering that the chance of passenger 1 to sit on any given seat was
+Now, remembering that the chance of passenger 1 to sit in any given seat was
 exactly one third, so it follows that:
 
 $$P_3 = \frac{1}{3} P_{3|1} + \frac{1}{3} P_{3|2} + \frac{1}{3} P_{3|3}$$
@@ -92,7 +92,7 @@ treat it like a 3-seat problem!
 
 $$P_{4|2} = P_3 = \frac{1}{2}$$
 
-And in case he seats in passenger 3's seat, then we can reassign passenger 3 to
+And in case he sits in passenger 3's seat, then we can reassign passenger 3 to
 passenger 1's seat and treat it like a 2-seat problem:
 
 $$P_{4|3} = P_2 = \frac{1}{2}$$
