@@ -21,4 +21,4 @@ I'm passionate about. My top interests currently are:
 - Street Fighter in particular.
 
 This website currently hosts only my blog, where I typically discuss things I
-love. Feel free to peruse as much as you like!
+love. Feel free to peruse as much as you like.
