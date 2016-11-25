@@ -21,6 +21,9 @@ description: > # this means to ignore newlines until "baseurl:"
   catch your attention!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sigriston.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+timezone: America/Sao_Paulo
+
 twitter_username: sigriston
 github_username:  sigriston
 
