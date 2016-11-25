@@ -11,8 +11,8 @@ surprising! Here's the problem:
 
 > A line of 100 passengers is waiting to board a 100-seat airplane. However,
 > the first passenger in line forgot his designated seat and will sit in a
-> random seat. The following passengers will seat on their assigned seats
-> unless their seat is already taken, in which case they will sit in a random
+> random seat. The following passengers will sit in their assigned seats unless
+> their seat is already taken, in which case they will sit in a random
 > available seat.
 >
 > What is the probability the 100th passenger will manage to sit in her
@@ -28,7 +28,7 @@ seats and passengers is 2. Now we'll introduce the notation $$P_n$$ which is
 the probability the $$n$$-th passenger will find her seat available. So right
 now let's work on finding out $$P_2$$, the solution to the 2-seat problem.
 
-Turns out, $$P_2$$ is really easy: either the first passenger sat on his
+Turns out, $$P_2$$ is really easy: either the first passenger sat in his
 assigned seat, in which case the second passenger will find her seat available;
 or he didn't, in which case the second passenger's seat will be occupied. We
 know from basic prob that this is basically a coin toss, with 50% chance for
@@ -44,7 +44,7 @@ chance for each is exactly one third.
 In the first case, we know that passenger 3 will find her seat unoccupied, and
 in the third case she won't. Let's introduce some notation to represent this:
 $$P_{n|x}$$, meaning the probability that the $$n$$-th passenger will find her
-seat available given that the first passenger sat on passenger $$x$$'s seat.
+seat available given that the first passenger sat in passenger $$x$$'s seat.
 So, for the 3-seat case we found out that:
 
 $$P_{3|1} = 1 \qquad P_{3|3} = 0$$
@@ -57,7 +57,7 @@ find her seat available.
 
 $$P_{3|2} = \frac{1}{2}$$
 
-This is not a coincidence: when passenger 1 sat on passenger 2's seat, we can
+This is not a coincidence: when passenger 1 sat in passenger 2's seat, we can
 say that passenger 2's assigned seat is now passenger 1's, and solve this
 exactly like the 2-seat problem. In notation:
 
@@ -109,7 +109,7 @@ can swap assignment with passenger 1 and we can treat this like a smaller
 problem.  Let's try to put that into notation.
 
 Considering we're dealing with a $$k$$-seat problem, and passenger 1 just sat
-on passenger $$x$$'s seat, then we can say that they swap seat assignments and
+in passenger $$x$$'s seat, then we can say that they swap seat assignments and
 we'll treat this as a problem of size $$(k - x + 1)$$:
 
 $$P_{k|x} = P_{k - x + 1}$$
