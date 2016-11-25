@@ -3,8 +3,6 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      // site.url - {{ site.url }}
-      // page.url - {{ page.url }}
       this.page.url = '{{ page.url | absolute_url }}';
       this.page.identifier = '{{ page.url | absolute_url }}';
     };
