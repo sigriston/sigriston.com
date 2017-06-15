@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/sigrist
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sigriston.com
+  * I am sigrist (https://keybase.io/sigrist) on keybase.
+  * I have a public key ASDuhTEsAvd2J_wrPGDw7h1aUhFxnfX3g2f9tP_lEECLowo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018d566e3354c76882cd47c6ee32324998b9daba947c16da84d7f9e604575b9b210a",
+            "host": "keybase.io",
+            "kid": "0120ee85312c02f77627fc2b3c60f0ee1d5a5211719df5f78367fdb4ffe510408ba30a",
+            "uid": "a851114930d3b184464b69b68952df19",
+            "username": "sigrist"
+        },
+        "service": {
+            "hostname": "sigriston.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1497564194,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1497564144,
+        "hash": "a885f42e1b1fff698fb7cc2897f7a54e7d00098c272e637a3db53b14aea3991d689233828b06123fe6397de0f37d3ce028f27ccd72a8c3221e96c7a26d57bf2a",
+        "seqno": 1173878
+    },
+    "prev": "4ced86ee7431ba9185495d611310df7e07120188964b3374b59c4f83970af5ef",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7oUxLAL3dif8Kzxg8O4dWlIRcZ3194Nn/bT/5RBAi6MKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOGQ1NjZlMzM1NGM3Njg4MmNkNDdjNmVlMzIzMjQ5OThiOWRhYmE5NDdjMTZkYTg0ZDdmOWU2MDQ1NzViOWIyMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWU4NTMxMmMwMmY3NzYyN2ZjMmIzYzYwZjBlZTFkNWE1MjExNzE5ZGY1Zjc4MzY3ZmRiNGZmZTUxMDQwOGJhMzBhIiwidWlkIjoiYTg1MTExNDkzMGQzYjE4NDQ2NGI2OWI2ODk1MmRmMTkiLCJ1c2VybmFtZSI6InNpZ3Jpc3QifSwic2VydmljZSI6eyJob3N0bmFtZSI6InNpZ3Jpc3Rvbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIzIn0sImN0aW1lIjoxNDk3NTY0MTk0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTc1NjQxNDQsImhhc2giOiJhODg1ZjQyZTFiMWZmZjY5OGZiN2NjMjg5N2Y3YTU0ZTdkMDAwOThjMjcyZTYzN2EzZGI1M2IxNGFlYTM5OTFkNjg5MjMzODI4YjA2MTIzZmU2Mzk3ZGUwZjM3ZDNjZTAyOGYyN2NjZDcyYThjMzIyMWU5NmM3YTI2ZDU3YmYyYSIsInNlcW5vIjoxMTczODc4fSwicHJldiI6IjRjZWQ4NmVlNzQzMWJhOTE4NTQ5NWQ2MTEzMTBkZjdlMDcxMjAxODg5NjRiMzM3NGI1OWM0ZjgzOTcwYWY1ZWYiLCJzZXFubyI6MTIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAHQnOyCRtWjV0MKh+MiPKAhGBeeTBvgcf+Y3qAYcg+wIfCSN48UT6+dlrt8u7wDA+vxEkKpZ/Qs/Q4qs+Y0pMA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGVTIBTcKfayWnXJJeW5gUglcbqhfJMEqWJdnqBhYQD0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sigrist
+
+==================================================================
